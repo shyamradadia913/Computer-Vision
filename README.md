@@ -1,232 +1,183 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
-<img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green.svg" />
-<img src="https://img.shields.io/badge/Type-Classical%20CV-blueviolet.svg" />
-<img src="https://img.shields.io/badge/Techniques-Edge%20Detection%20%7C%20Contours-yellow.svg" />
-<img src="https://img.shields.io/badge/Post--Processing-NMS-orange.svg" />
-<img src="https://img.shields.io/badge/Environment-Jupyter%20Notebook-lightgrey.svg" />
-<img src="https://img.shields.io/badge/Status-Completed-success.svg" />
+<img src="https://img.shields.io/badge/Domain-Computer%20Vision-orange.svg" />
+<img src="https://img.shields.io/badge/Projects-8-blueviolet.svg" />
+<img src="https://img.shields.io/badge/Level-Classical%20to%20Deep%20Learning-yellow.svg" />
+<img src="https://img.shields.io/badge/Focus-End--to--End%20Vision-lightgrey.svg" />
+<img src="https://img.shields.io/badge/Status-Active-success.svg" />
 
 </p>
 
-# A Classical Computer Vision Pipeline
+# Computer Vision Portfolio Projects
 
-## 📌 Overview
+This repository contains a structured collection of **8 Computer Vision projects**, progressing from classical image processing techniques to advanced deep learning models and real-world failure analysis.
 
-This project implements a classical computer vision pipeline using traditional image processing and feature-based techniques instead of deep learning models.
+The projects demonstrate practical implementation of:
 
-The objective of this notebook is to demonstrate how a complete vision system can be built using:
-
-- Image preprocessing
-- Feature extraction
-- Object detection
-- Post-processing techniques
-- Visualization and result analysis
-
-Unlike modern deep learning pipelines, this implementation focuses on interpretable, modular, and algorithm-driven approaches.
+- Classical feature-based vision
+- Object detection pipelines
+- Deep learning with CNNs
+- Semantic segmentation (U-Net)
+- YOLOv8 object detection
+- Real-world compression failure analysis
 
 ---
 
-## 🎯 Project Objective
-
-The goal of this notebook is to design and implement a structured computer vision workflow that performs:
-
-- Image loading and preprocessing
-- Noise reduction and enhancement
-- Segmentation or region extraction
-- Feature detection
-- Bounding box generation
-- Non-Maximum Suppression (NMS)
-- Final visualization of results
-
-This pipeline demonstrates how object detection and recognition tasks were traditionally handled before deep learning dominated the field.
+# 📂 Project Index
 
 ---
 
-## 🏗 Pipeline Architecture
+## 1️⃣ A Classical Computer Vision Pipeline
+Implements a full traditional CV workflow including preprocessing, feature extraction, bounding box generation, and Non-Maximum Suppression (NMS).
 
-The notebook follows a modular structure similar to real-world vision systems.
-
-### 1️⃣ Image Acquisition
-- Load image(s) from disk
-- Convert color space if required (BGR → Grayscale)
-
-### 2️⃣ Preprocessing
-- Image normalization
-- Smoothing / blurring (e.g., Gaussian blur)
-- Thresholding or binary conversion
-- Noise reduction
-
-**Purpose:**
-- Improve signal quality
-- Reduce irrelevant details
-- Enhance structural information
-
-### 3️⃣ Feature Extraction
-Classical feature detection techniques are applied to extract meaningful structures such as:
-
-- Edges
-- Corners
+Focus:
+- Edge detection
 - Contours
-- Regions of interest
-
-Common techniques may include:
-- Canny edge detection
-- Connected component analysis
-- Contour detection
-- Haar-based feature extraction
-
-This stage converts raw pixel data into structured visual information.
-
-### 4️⃣ Candidate Region Detection
-- Regions are identified
-- Bounding boxes are generated
-- Confidence scores may be assigned
-
-This simulates the object detection stage of a pipeline.
-
-### 5️⃣ Post-Processing (Non-Maximum Suppression)
-Overlapping bounding boxes are filtered using:
-
-**Non-Maximum Suppression (NMS)**
-
-**Why NMS is important:**
-- Multiple detections often overlap
-- Redundant detections reduce clarity
-- NMS keeps only the strongest bounding box
-
-This step ensures cleaner and more interpretable output.
-
-### 6️⃣ Visualization
-Final detections are displayed with:
-- Bounding rectangles
-- Labels (if applicable)
-- Real-time visualization (if webcam used)
-
-Visualization confirms the effectiveness of the pipeline.
+- Structural processing
+- Rule-based object detection
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+## 2️⃣ Corner Detection using Classical Computer Vision
+Implements Harris Corner Detection on structured images such as chessboards and grids.
 
-This notebook reinforces understanding of:
-
-- Image preprocessing techniques
-- Spatial filtering
-- Gradient-based feature detection
-- Structural image representation
-- Object localization
-- Bounding box refinement
-- Traditional face detection (Haar cascades if implemented)
-- Real-time frame processing
-
-It bridges the gap between theory and practical implementation of classical computer vision.
+Focus:
+- Gradient computation
+- Structure tensor
+- Feature point extraction
 
 ---
 
-## 🛠 Technologies Used
+## 3️⃣ Face + Eye Detection using Haar Cascades (OpenCV)
+Real-time face and eye detection using Haar Cascade classifiers.
 
-- Python 3
+Focus:
+- Cascade classifiers
+- Multi-scale detection
+- ROI-based processing
+- Real-time webcam inference
+
+---
+
+## 4️⃣ Feature Detection and Matching using OpenCV
+Detects and matches keypoints between two images using descriptor-based matching.
+
+Focus:
+- ORB / SIFT
+- BFMatcher / FLANN
+- Lowe’s ratio test
+- Geometric correspondence
+
+---
+
+## 5️⃣ Image Classification using Convolutional Neural Network (CNN)
+Implements a CNN model for supervised image classification.
+
+Focus:
+- Convolution layers
+- Model training & validation
+- Loss optimization
+- Performance visualization
+
+---
+
+## 6️⃣ Object Detection using YOLOv8
+Trains and evaluates a YOLOv8 object detection model on a custom dataset.
+
+Focus:
+- Bounding box regression
+- mAP evaluation
+- Transfer learning
+- Real-time detection pipeline
+
+---
+
+## 7️⃣ Medical Image Semantic Segmentation using U-Net
+Implements a U-Net architecture for tumor segmentation in medical images.
+
+Focus:
+- Encoder–Decoder architecture
+- Skip connections
+- Dice score evaluation
+- Pixel-level classification
+
+---
+
+## 8️⃣ Xerox JBIG2 Compression Bug – When Compression Breaks Meaning
+Technical case study analyzing semantic corruption caused by lossy document compression.
+
+Focus:
+- Pattern substitution failure
+- PSNR / SSIM analysis
+- Structural corruption detection
+- AI system reliability implications
+
+---
+
+# 🧠 Skill Progression Demonstrated
+
+This repository shows structured progression:
+
+### Classical Computer Vision
+- Feature engineering
+- Rule-based detection
+- Descriptor matching
+
+### Deep Learning
+- CNN classification
+- Object detection (YOLOv8)
+- Semantic segmentation (U-Net)
+
+### Advanced Systems Insight
+- Failure analysis
+- Compression risk evaluation
+- Semantic integrity awareness
+
+---
+
+# 🛠 Technologies Used
+
+- Python
 - OpenCV
 - NumPy
 - Matplotlib
-- Jupyter Notebook
+- TensorFlow / Keras
+- PyTorch (YOLOv8 backend)
+- scikit-image
+- Ultralytics YOLOv8
 
 ---
 
-## 📂 Project Structure
+# 🎯 What This Portfolio Demonstrates
 
-```
-Classical-Computer-Vision-Pipeline/
-│
-├── A classical computer vision pipeline.ipynb
-├── sample_images/
-└── README.md
-```
-
----
-
-## ▶️ How to Run
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-### 2️⃣ Install dependencies
-```bash
-pip install opencv-python numpy matplotlib
-```
-
-### 3️⃣ Open the notebook
-```bash
-jupyter notebook
-```
-
-Run all cells sequentially.
+- End-to-end vision pipeline understanding
+- Both classical and modern deep learning approaches
+- Model training and evaluation
+- Real-time detection systems
+- Medical image segmentation
+- System-level failure analysis
+- Awareness of AI reliability risks
 
 ---
 
-## 📊 Expected Output
-
-Depending on the implemented tasks, the output may include:
-
-- Edge-detected images
-- Contour visualizations
-- Segmented regions
-- Bounding boxes drawn on detected objects
-- Real-time webcam detection results
-
-The final output demonstrates a complete classical detection pipeline.
-
----
-
-## ⚖ Classical Vision vs Deep Learning
-
-| Classical Vision        | Deep Learning              |
-|------------------------|----------------------------|
-| Manual feature design  | Automatic feature learning |
-| Rule-based logic       | Data-driven training       |
-| Lightweight models     | Heavy GPU models           |
-| Interpretable pipeline | Often black-box            |
-
----
-
-## 🚀 Possible Improvements
-
-- Integrating SIFT or ORB feature matching
-- Adding HOG-based detection
-- Comparing Haar cascade vs DNN detector
-- Performance benchmarking
-- Converting to real-time multi-object tracking
-- Adding evaluation metrics (precision, recall, IoU)
-
----
-
-## 🎓 Learning Outcomes
-
-By completing this project, you gain understanding of:
-
-- End-to-end classical vision workflow
-- Edge detection and segmentation principles
-- Feature-based object detection
-- Bounding box refinement
-- Real-time image processing
-- Post-processing strategies like NMS
-
----
-
-## 👤 Author
+# 👤 Author
 
 **Shyam**  
-AI & Data Science
+AI & Data Science  
 
 ---
 
-## 📌 Final Note
+# 📌 Final Note
 
-This project demonstrates how a complete computer vision system can be built without deep learning.
+This repository is structured to reflect not just implementation skills,  
+but architectural understanding of computer vision systems.
 
-It emphasizes clarity, structure, and interpretability — foundational skills that strengthen advanced AI development.
+It spans:
+
+From edge detection  
+To YOLOv8  
+To U-Net segmentation  
+To real-world compression failure analysis  
+
+A complete practical journey through modern computer vision.
