@@ -173,11 +173,11 @@ This repository shows structured progression:
 # **Acknowledgment**
 I would like to thank:
 
-Adani Institute of Digital Technology Management (AIDTM)
+**Adani Institute of Digital Technology Management (AIDTM)**
 for providing an industry-driven learning environment and a strong technical foundation in AI and Data Science.
 
 I would also like to express my sincere gratitude to
-Prof. Chintan Patel
+**Prof. Chintan Patel**
 for his guidance, mentorship, and support throughout the Computer Vision coursework.
 
 ---
