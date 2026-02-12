@@ -170,6 +170,18 @@ This repository shows structured progression:
 
 ---
 
+# **Acknowledgment**
+I would like to thank:
+
+Adani Institute of Digital Technology Management (AIDTM)
+for providing an industry-driven learning environment and a strong technical foundation in AI and Data Science.
+
+I would also like to express my sincere gratitude to
+Prof. Chintan Patel
+for his guidance, mentorship, and support throughout the Computer Vision coursework.
+
+---
+
 # 📌 Final Note
 
 This repository is structured to reflect not just implementation skills,  
@@ -184,14 +196,3 @@ To real-world compression failure analysis
 
 A complete practical journey through modern computer vision.
 =======
-# Computer-Vision
-
-**Acknowledgment**
-I would like to thank:
-
-Adani Institute of Digital Technology Management (AIDTM)
-for providing an industry-driven learning environment and a strong technical foundation in AI and Data Science.
-
-I would also like to express my sincere gratitude to
-Prof. Chintan Patel
-for his guidance, mentorship, and support throughout the Computer Vision coursework.
