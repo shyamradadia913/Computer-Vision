@@ -223,6 +223,7 @@ By completing this project, you gain understanding of:
 **Shyam A. Radadia**  
 🎓 AI & Data Science - ADANI INSTITUTE OF DIGITAL TECHNOLOGY MANAGEMENT
 📍 Gandhinagar, India
+📧 shyamradadia99@gmail.com
 
 
 
