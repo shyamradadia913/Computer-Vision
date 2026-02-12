@@ -249,8 +249,10 @@ By completing this project, you gain understanding of:
 
 ## 👤 Author
 
-**Shyam**  
-AI & Data Science  
+**Shyam A. Radadia**  
+🎓 AI & Data Science - ADANI INSTITUTE OF DIGITAL TECHNOLOGY MANAGEMENT
+📍 Gandhinagar, India
+📧 shyamradadia99@gmail.com
 
 ---
 
