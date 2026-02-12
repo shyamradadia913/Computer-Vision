@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
 
 <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
@@ -181,3 +182,6 @@ To U-Net segmentation
 To real-world compression failure analysis  
 
 A complete practical journey through modern computer vision.
+=======
+# Computer-Vision
+>>>>>>> d9c1ce0f1657e9c0154ab476b61f39a09f4271ca

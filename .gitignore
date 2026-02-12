@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# TensorFlow / PyTorch Models
+# =========================
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# YOLO / Training Outputs
+# =========================
+runs/
+wandb/
+results/
+*.log
+
+# =========================
+# Dataset Files (Optional)
+# Uncomment if needed
+# =========================
+# *.zip
+# *.tar
+# *.gz
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.csv
+*.xlsx
+*.tmp
+*.bak
