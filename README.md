@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
 
 <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
@@ -164,8 +163,10 @@ This repository shows structured progression:
 
 # 👤 Author
 
-**Shyam**  
-AI & Data Science  
+**Shyam A. Radadia**  
+🎓 AI & Data Science - ADANI INSTITUTE OF DIGITAL TECHNOLOGY MANAGEMENT
+📍 Gandhinagar, India
+📧 shyamradadia99@gmail.com 
 
 ---
 
@@ -184,4 +185,13 @@ To real-world compression failure analysis
 A complete practical journey through modern computer vision.
 =======
 # Computer-Vision
->>>>>>> d9c1ce0f1657e9c0154ab476b61f39a09f4271ca
+
+**Acknowledgment**
+I would like to thank:
+
+Adani Institute of Digital Technology Management (AIDTM)
+for providing an industry-driven learning environment and a strong technical foundation in AI and Data Science.
+
+I would also like to express my sincere gratitude to
+Prof. Chintan Patel
+for his guidance, mentorship, and support throughout the Computer Vision coursework.
