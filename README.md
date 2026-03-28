@@ -2,25 +2,52 @@
 
 <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
 <img src="https://img.shields.io/badge/Domain-Computer%20Vision-orange.svg" />
-<img src="https://img.shields.io/badge/Projects-8-blueviolet.svg" />
-<img src="https://img.shields.io/badge/Level-Classical%20to%20Deep%20Learning-yellow.svg" />
-<img src="https://img.shields.io/badge/Focus-End--to--End%20Vision-lightgrey.svg" />
+<img src="https://img.shields.io/badge/Projects-15+-blueviolet.svg" />
+<img src="https://img.shields.io/badge/Level-Classical%20→%20Advanced-yellow.svg" />
+<img src="https://img.shields.io/badge/Focus-End--to--End%20Systems-lightgrey.svg" />
 <img src="https://img.shields.io/badge/Status-Active-success.svg" />
 
 </p>
 
-# Computer Vision Portfolio Projects
+# 🧠 Computer Vision Portfolio Projects
 
-This repository contains a structured collection of **8 Computer Vision projects**, progressing from classical image processing techniques to advanced deep learning models and real-world failure analysis.
+This repository contains a **structured collection of end-to-end Computer Vision projects**, progressing from classical image processing techniques to advanced deep learning systems and real-world analytics pipelines.
 
-The projects demonstrate practical implementation of:
+It demonstrates practical implementation of:
 
-- Classical feature-based vision
-- Object detection pipelines
-- Deep learning with CNNs
-- Semantic segmentation (U-Net)
-- YOLOv8 object detection
-- Real-world compression failure analysis
+- Classical feature-based vision  
+- Deep learning (CNN, Transfer Learning)  
+- Object detection (YOLOv8, Faster R-CNN)  
+- Semantic segmentation  
+- Facial recognition (FaceNet + Triplet Loss)  
+- Real-time tracking & analytics systems  
+- Medical AI with explainability  
+- System-level failure analysis  
+
+---
+
+# 🚀 Featured Projects (Top Work)
+
+### 🥇 Medical Image Analysis — Breast Cancer Detection
+- EfficientNetB0 + Transfer Learning  
+- AUC ≈ **0.96+**  
+- Grad-CAM Explainability  
+- Production-level pipeline  
+
+---
+
+### 🥈 Traffic Analytics System
+- Multi-object tracking  
+- Directional counting  
+- Heatmap generation  
+- CSV-based analytics  
+
+---
+
+### 🥉 FaceNet Facial Recognition
+- Triplet Loss  
+- Embedding-based recognition  
+- Real-time webcam demo  
 
 ---
 
@@ -28,171 +55,287 @@ The projects demonstrate practical implementation of:
 
 ---
 
-## 1️⃣ A Classical Computer Vision Pipeline
-Implements a full traditional CV workflow including preprocessing, feature extraction, bounding box generation, and Non-Maximum Suppression (NMS).
+## 🔹 1️⃣ A Classical Computer Vision Pipeline
+Implements a full traditional CV workflow.
 
 Focus:
-- Edge detection
-- Contours
-- Structural processing
-- Rule-based object detection
+- Edge detection  
+- Contours  
+- Bounding boxes  
+- Non-Maximum Suppression (NMS)  
 
 ---
 
-## 2️⃣ Corner Detection using Classical Computer Vision
-Implements Harris Corner Detection on structured images such as chessboards and grids.
+## 🔹 2️⃣ Corner Detection
+Harris Corner Detection for structured images.
 
 Focus:
-- Gradient computation
-- Structure tensor
-- Feature point extraction
+- Gradient computation  
+- Structure tensor  
+- Keypoint extraction  
 
 ---
 
-## 3️⃣ Face + Eye Detection using Haar Cascades (OpenCV)
-Real-time face and eye detection using Haar Cascade classifiers.
+## 🔹 3️⃣ Face + Eye Detection (Haar Cascades)
+Real-time detection using classical methods.
 
 Focus:
-- Cascade classifiers
-- Multi-scale detection
-- ROI-based processing
-- Real-time webcam inference
+- Haar cascades  
+- Multi-scale detection  
+- Webcam inference  
 
 ---
 
-## 4️⃣ Feature Detection and Matching using OpenCV
-Detects and matches keypoints between two images using descriptor-based matching.
+## 🔹 4️⃣ Feature Detection & Matching
+Keypoint matching between images.
 
 Focus:
-- ORB / SIFT
-- BFMatcher / FLANN
-- Lowe’s ratio test
-- Geometric correspondence
+- ORB / SIFT  
+- Descriptor matching  
+- Correspondence mapping  
 
 ---
 
-## 5️⃣ Image Classification using Convolutional Neural Network (CNN)
-Implements a CNN model for supervised image classification.
+## 🔹 5️⃣ CNN Image Classification
+Custom CNN for supervised classification.
 
 Focus:
-- Convolution layers
-- Model training & validation
-- Loss optimization
-- Performance visualization
+- Convolution layers  
+- Model training  
+- Performance visualization  
 
 ---
 
-## 6️⃣ Object Detection using YOLOv8
-Trains and evaluates a YOLOv8 object detection model on a custom dataset.
+## 🔹 6️⃣ CNN Hyperparameter Study
+Experimental comparison of CNN configurations.
 
 Focus:
-- Bounding box regression
-- mAP evaluation
-- Transfer learning
-- Real-time detection pipeline
+- Padding vs Stride  
+- Pooling impact  
+- Accuracy vs efficiency  
 
 ---
 
-## 7️⃣ Medical Image Semantic Segmentation using U-Net
-Implements a U-Net architecture for tumor segmentation in medical images.
+## 🔹 7️⃣ YOLOv8 Object Detection
+Real-time detection using YOLOv8.
 
 Focus:
-- Encoder–Decoder architecture
-- Skip connections
-- Dice score evaluation
-- Pixel-level classification
+- Bounding box prediction  
+- mAP evaluation  
+- Fast inference  
 
 ---
 
-## 8️⃣ Xerox JBIG2 Compression Bug – When Compression Breaks Meaning
-Technical case study analyzing semantic corruption caused by lossy document compression.
+## 🔹 8️⃣ Faster R-CNN Detection
+High-accuracy detection using pretrained models.
 
 Focus:
-- Pattern substitution failure
-- PSNR / SSIM analysis
-- Structural corruption detection
-- AI system reliability implications
+- Region Proposal Network (RPN)  
+- ROI processing  
+- COCO dataset  
+
+---
+
+## 🔹 9️⃣ Semantic Segmentation (U-Net)
+Medical image segmentation.
+
+Focus:
+- Encoder–Decoder architecture  
+- Skip connections  
+- Pixel-wise classification  
+
+---
+
+## 🔹 🔟 Facial Recognition (FaceNet + Triplet Loss)
+Advanced recognition system.
+
+Focus:
+- Metric learning  
+- Embedding space  
+- Cosine similarity  
+
+---
+
+## 🔹 1️⃣1️⃣ Facial Recognition (Basic)
+Simpler recognition pipeline.
+
+Focus:
+- Face detection  
+- Feature extraction  
+- Identity classification  
+
+---
+
+## 🔹 1️⃣2️⃣ Traffic Monitoring System
+Vehicle detection and counting.
+
+Focus:
+- Background subtraction  
+- Contour detection  
+- Counting logic  
+
+---
+
+## 🔹 1️⃣3️⃣ Traffic Analytics System (Advanced)
+Full real-time analytics system.
+
+Focus:
+- Multi-object tracking  
+- Directional counting  
+- Heatmaps  
+- CSV export  
+
+---
+
+## 🔹 1️⃣4️⃣ Image Stitching & Panorama
+Multiple stitching approaches.
+
+Focus:
+- Feature matching  
+- Homography  
+- 360° panorama  
+
+---
+
+## 🔹 1️⃣5️⃣ Medical Image Analysis (Breast Cancer Detection)
+Advanced deep learning system.
+
+Focus:
+- EfficientNetB0  
+- Transfer learning  
+- AUC optimization  
+- Grad-CAM explainability  
+
+---
+
+## 🔹 1️⃣6️⃣ Xerox JBIG2 Compression Bug (Case Study)
+Real-world system failure analysis.
+
+Focus:
+- Compression errors  
+- Semantic corruption  
+- AI reliability  
 
 ---
 
 # 🧠 Skill Progression Demonstrated
 
-This repository shows structured progression:
+This repository follows a clear progression:
 
-### Classical Computer Vision
-- Feature engineering
-- Rule-based detection
-- Descriptor matching
+### 🧩 Classical Computer Vision
+- Feature engineering  
+- Rule-based pipelines  
+- Image processing  
 
-### Deep Learning
-- CNN classification
-- Object detection (YOLOv8)
-- Semantic segmentation (U-Net)
+### 🤖 Deep Learning
+- CNN classification  
+- Transfer learning  
+- Detection & segmentation  
 
-### Advanced Systems Insight
-- Failure analysis
-- Compression risk evaluation
-- Semantic integrity awareness
+### 🚀 Advanced Systems
+- Facial recognition  
+- Real-time tracking  
+- Analytics pipelines  
+
+### 🏥 Applied AI
+- Medical image diagnosis  
+- Explainable AI (Grad-CAM)  
+
+### ⚠ System-Level Thinking
+- Failure analysis  
+- Reliability awareness  
 
 ---
 
 # 🛠 Technologies Used
 
-- Python
-- OpenCV
-- NumPy
-- Matplotlib
-- TensorFlow / Keras
-- PyTorch (YOLOv8 backend)
-- scikit-image
-- Ultralytics YOLOv8
+- Python  
+- OpenCV  
+- TensorFlow / Keras  
+- PyTorch (YOLOv8)  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
 
 ---
 
 # 🎯 What This Portfolio Demonstrates
 
-- End-to-end vision pipeline understanding
-- Both classical and modern deep learning approaches
-- Model training and evaluation
-- Real-time detection systems
-- Medical image segmentation
-- System-level failure analysis
-- Awareness of AI reliability risks
+- End-to-end computer vision pipeline understanding  
+- Strong foundation in classical + deep learning approaches  
+- Ability to build real-world systems  
+- Experience with model evaluation & optimization  
+- Practical implementation of tracking & analytics  
+- Understanding of explainable AI  
+- Awareness of system failures and risks  
+
+---
+
+# ▶️ How to Use
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/shyamradadia913/Computer-Vision.git
+```
+
+2. Navigate into any project folder:
+
+```bash
+cd Traffic_Analytics_System
+```
+
+3. Follow that project's README
+
+---
+
+# ⚠ Important Notes
+
+- Some projects require GPU (recommended: Google Colab)  
+- Dataset paths may need adjustment  
+- Models are for educational/demo purposes  
+
+---
+
+# 🚀 Future Improvements
+
+- Deploy projects using Streamlit / Flask  
+- Add benchmarking across models  
+- Integrate dashboards for analytics  
+- Expand medical AI use cases  
 
 ---
 
 # 👤 Author
 
 **Shyam A. Radadia**  
-🎓 AI & Data Science - ADANI INSTITUTE OF DIGITAL TECHNOLOGY MANAGEMENT
-📍 Gandhinagar, India
-📧 shyamradadia99@gmail.com 
+🎓 AI & Data Science  
+🏫 Adani Institute of Digital Technology Management (AIDTM)  
+📍 Gandhinagar, India  
+📧 shyamradadia99@gmail.com  
 
 ---
 
-# **Acknowledgment**
+# 🙏 Acknowledgment
+
 I would like to thank:
 
-**Adani Institute of Digital Technology Management (AIDTM)**
-for providing an industry-driven learning environment and a strong technical foundation in AI and Data Science.
+**Adani Institute of Digital Technology Management (AIDTM)**  
+for providing an industry-driven learning environment.
 
-I would also like to express my sincere gratitude to
-**Prof. Chintan Patel**
-for his guidance, mentorship, and support throughout the Computer Vision coursework.
+**Prof. Chintan Patel**  
+for guidance and mentorship in Computer Vision.
 
 ---
 
 # 📌 Final Note
 
-This repository is structured to reflect not just implementation skills,  
-but architectural understanding of computer vision systems.
+This repository represents a **complete journey through Computer Vision**:
 
-It spans:
+From classical image processing  
+To deep learning models  
+To real-time systems  
+To medical AI and explainability  
 
-From edge detection  
-To YOLOv8  
-To U-Net segmentation  
-To real-world compression failure analysis  
-
-A complete practical journey through modern computer vision.
-=======
+It emphasizes not just implementation,  
+but **system design, analysis, and real-world applicability**.
